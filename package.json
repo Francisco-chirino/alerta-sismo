@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Esta es una aplicación web para alertas de sismo, diseñada para un proyecto universitario. Permite a los usuarios suscribirse a notificaciones push y emitir alertas que se envían a todos los suscriptores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Francisco-chirino/alerta-sismo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Francisco-chirino/alerta-sismo/issues"
+  },
+  "homepage": "https://github.com/Francisco-chirino/alerta-sismo#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "web-push": "^3.6.7"
+  }
+}
